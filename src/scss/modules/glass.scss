@@ -1,9 +1,19 @@
 .glass {
-//   position: absolute;
+  //   position: absolute;
   width: 280px;
   height: 280px;
-  background:url('/../assets/img/water-glass.svg'); 
-  background-size:contain;
-//   left: 47px;
-//   top: 203px;
+  background: url('../assets/img/water-glass.svg');
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:48px;
+  //   left: 47px;
+  //   top: 203px;
+  &__counter {
+    font-size: 112px;
+    line-height: 131px;
+    color:  rgba(0, 0, 0, 0.33);
+    margin-top: 35px;
+  }
 }
