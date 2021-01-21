@@ -1,7 +1,8 @@
 @import "~normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import "_variables";
-@import "modules/hello.scss";
+@import "modules/app.scss";
+@import "modules/glass.scss";
+@import "modules/buttons.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 body {
  background: #3767AD;
@@ -11,14 +12,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family:'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
-.glass{
-  height: 280px;
-  width: 210px;
-  left: 35px;
-  
-  // position: absolute;
-  // left: 12.5%;
-  // right: 12.5%;
-}
+
